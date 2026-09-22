@@ -38,13 +38,13 @@ John the Ripper (JTR) is a widely used password auditing and recovery tool that 
 
 ### JTR Setup
 
-![Johnny JTR Setup](images/01_Johnny_JTR_Setup.png)
+![Johnny JTR Setup](screenshots/01_Johnny_JTR_Setup.png)
 
 This screenshot shows Johnny configured with the path to the John the Ripper executable, confirming that JTR (jumbo build) was correctly detected and ready to run attacks.
 
 ### JTR Cracking Result
 
-![JTR Cracked Password](images/02_JTR_Cracked_Password.png)
+![JTR Cracked Password](screenshots/02_JTR_Cracked_Password.png)
 
 This screenshot demonstrates a successful password recovery using Johnny/JTR against the extracted PDF hash. All three provided passwords were successfully recovered during the practical exercise; only one cracking-result screenshot was retained for this README, so the image above represents the general outcome of the process rather than all three results individually.
 
@@ -66,13 +66,13 @@ This module uses two free browser-based tools built by NetworkWalks: the **Hash 
 
 ### Hash Extraction
 
-![NetworkWalks Hash Extraction](images/03_NetworkWalks_Hash_Extraction.png)
+![NetworkWalks Hash Extraction](screenshots/03_NetworkWalks_Hash_Extraction.png)
 
 This screenshot shows the NetworkWalks Hash Calculator extracting a crackable `$pdf$` hash directly from the locked PDF, entirely in-browser.
 
 ### Password Cracking Result
 
-![NetworkWalks Cracked Password](images/04_NetworkWalks_Cracked_Password.png)
+![NetworkWalks Cracked Password](screenshots/04_NetworkWalks_Cracked_Password.png)
 
 This screenshot demonstrates the NetworkWalks Password Cracker successfully recovering the password from the extracted PDF hash. As with Module 1, this screenshot documents the representative result of the process, not every individual PDF cracked.
 
@@ -80,11 +80,11 @@ This screenshot demonstrates the NetworkWalks Password Cracker successfully reco
 
 The final step in both modules was opening the protected PDFs using the recovered passwords, confirming that the cracked credentials were correct.
 
-![PDF 1 Unlocked](images/05_PDF_1_Unlocked.png)
+![PDF 1 Unlocked](screenshots/05_PDF_1_Unlocked.png)
 
-![PDF 2 Unlocked](images/06_PDF_2_Unlocked.png)
+![PDF 2 Unlocked](screenshots/06_PDF_2_Unlocked.png)
 
-![PDF 3 Unlocked](images/07_PDF_3_Unlocked.png)
+![PDF 3 Unlocked](screenshots/07_PDF_3_Unlocked.png)
 
 These three screenshots confirm that each protected PDF could be successfully opened using its respective recovered password.
 
@@ -172,5 +172,3 @@ I would also like to thank NetworkWalks for this opportunity, which has allowed 
 ## Author
 Karthik Raman Keerangudi Kalyanaraman
 Cybersecurity Intern and Enthusiast
-
-
