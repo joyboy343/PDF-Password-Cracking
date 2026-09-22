@@ -166,3 +166,11 @@ These exercises were performed in a controlled internship/lab environment on pro
 ## Learning Outcome
 
 This project provided hands-on experience with the full password-cracking workflow: extracting a hash from a protected file, running that hash through both a native cracking tool (John the Ripper via Johnny) and a browser-based alternative (NetworkWalks Hash Calculator + Password Cracker), and validating the recovered credentials by successfully opening the originally locked PDFs. It reinforced the practical difference between hashing and encryption, and made clear why weak, predictable passwords are trivial to recover compared to stronger, more complex ones.
+
+I would also like to thank NetworkWalks for this opportunity, which has allowed me to learn, grow, and further develop my cybersecurity skills.
+
+## Author
+Karthik Raman Keerangudi Kalyanaraman
+Cybersecurity Intern and Enthusiast
+
+
